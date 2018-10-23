@@ -1,1 +1,1 @@
-# GD3_PixelTheme
+# GD3 Pixel Theme for RETRO games
