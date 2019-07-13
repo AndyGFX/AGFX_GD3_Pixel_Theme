@@ -72,7 +72,7 @@ text = "Checkbox"
 [node name="Panel2" type="Panel" parent="."]
 margin_left = 122.0
 margin_top = 3.0
-margin_right = 266.0
+margin_right = 290.0
 margin_bottom = 153.0
 theme = ExtResource( 1 )
 
@@ -102,3 +102,18 @@ margin_right = 133.0
 margin_bottom = 113.0
 theme = ExtResource( 1 )
 text = "Label Edit"
+
+[node name="HSlider" type="HSlider" parent="Panel2"]
+margin_left = 7.0
+margin_top = 116.0
+margin_right = 140.0
+margin_bottom = 132.0
+theme = ExtResource( 1 )
+ticks_on_borders = true
+
+[node name="VSlider" type="VSlider" parent="Panel2"]
+margin_left = 148.0
+margin_top = 5.0
+margin_right = 164.0
+margin_bottom = 114.0
+theme = ExtResource( 1 )
