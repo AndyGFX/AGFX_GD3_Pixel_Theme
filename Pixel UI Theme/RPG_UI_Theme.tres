@@ -1,4 +1,4 @@
-[gd_resource type="Theme" load_steps=34 format=2]
+[gd_resource type="Theme" load_steps=37 format=2]
 
 [ext_resource path="res://Pixel UI Theme/Sprites/Button_theme_Focus.png" type="Texture" id=1]
 [ext_resource path="res://Pixel UI Theme/Sprites/Button_theme_Hover.png" type="Texture" id=2]
@@ -10,8 +10,11 @@
 [ext_resource path="res://Pixel UI Theme/Sprites/checkbox_unchecked.png" type="Texture" id=8]
 [ext_resource path="res://Pixel UI Theme/Sprites/LineEdit.png" type="Texture" id=9]
 [ext_resource path="res://Pixel UI Theme/Sprites/Panel.png" type="Texture" id=10]
-[ext_resource path="res://Pixel UI Theme/Sprites/ScrollBar.png" type="Texture" id=11]
-[ext_resource path="res://Pixel UI Theme/Fonts/pixelmix.ttf" type="DynamicFontData" id=12]
+[ext_resource path="res://Pixel UI Theme/Sprites/ScrollBar_grabber.png" type="Texture" id=11]
+[ext_resource path="res://Pixel UI Theme/Sprites/ScrollBar_grabber_hilite.png" type="Texture" id=12]
+[ext_resource path="res://Pixel UI Theme/Sprites/ScrollBar_scroll.png" type="Texture" id=13]
+[ext_resource path="res://Pixel UI Theme/Sprites/ScrollBar_scroll_focus.png" type="Texture" id=14]
+[ext_resource path="res://Pixel UI Theme/Fonts/pixelmix.ttf" type="DynamicFontData" id=15]
 
 [sub_resource type="DynamicFontData" id=1]
 font_path = "res://Pixel UI Theme/Fonts/pixelmix.ttf"
@@ -123,36 +126,47 @@ content_margin_right = 0.0
 content_margin_top = 0.0
 content_margin_bottom = 0.0
 texture = ExtResource( 11 )
-region_rect = Rect2( 0, 0, 4, 4 )
-expand_margin_left = 6.0
+region_rect = Rect2( 0, 0, 16, 16 )
+margin_left = 5.0
+margin_right = 6.92768
+margin_top = 6.47182
+margin_bottom = 6.54215
 
 [sub_resource type="StyleBoxTexture" id=17]
 texture = ExtResource( 11 )
-region_rect = Rect2( 12, 0, 4, 4 )
-margin_left = 2.0
-margin_right = 2.0
-margin_top = 2.0
-margin_bottom = 2.0
+region_rect = Rect2( 0, 0, 16, 16 )
+margin_left = 7.18471
+margin_right = 6.76674
+margin_top = 7.15227
+margin_bottom = 6.84462
 
 [sub_resource type="StyleBoxTexture" id=18]
-texture = ExtResource( 11 )
-region_rect = Rect2( 16, 0, 4, 4 )
+texture = ExtResource( 12 )
+region_rect = Rect2( 0, 0, 16, 16 )
+margin_left = 6.91647
+margin_right = 7.07222
+margin_top = 6.86583
+margin_bottom = 7.12285
 
 [sub_resource type="StyleBoxTexture" id=19]
-texture = ExtResource( 11 )
-region_rect = Rect2( 0, 0, 4, 4 )
+texture = ExtResource( 13 )
+region_rect = Rect2( 0, 0, 16, 16 )
+margin_left = 4.56312
+margin_right = 5.65772
+margin_top = 5.34513
+margin_bottom = 5.06034
 
 [sub_resource type="StyleBoxTexture" id=20]
-texture = ExtResource( 11 )
-region_rect = Rect2( 8, 0, 4, 4 )
-margin_left = 2.0
-margin_right = 2.0
-margin_top = 2.0
-margin_bottom = 2.0
+texture = ExtResource( 14 )
+region_rect = Rect2( 0, 0, 16, 16 )
+margin_left = 5.0
+margin_right = 4.70552
+margin_top = 4.99031
+margin_bottom = 4.84792
 
 [sub_resource type="DynamicFont" id=21]
 size = 8
-font_data = ExtResource( 12 )
+font_data = ExtResource( 15 )
 
 [resource]
 default_font = SubResource( 21 )
@@ -240,4 +254,3 @@ VScrollBar/styles/grabber_highlight = SubResource( 17 )
 VScrollBar/styles/grabber_pressed = SubResource( 18 )
 VScrollBar/styles/scroll = SubResource( 19 )
 VScrollBar/styles/scroll_focus = SubResource( 20 )
-
