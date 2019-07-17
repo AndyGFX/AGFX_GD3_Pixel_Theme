@@ -121,6 +121,7 @@ theme = ExtResource( 1 )
 ticks_on_borders = true
 
 [node name="Panel3" type="Panel" parent="."]
+editor/display_folded = true
 margin_left = 291.0
 margin_top = 3.0
 margin_right = 509.0
@@ -144,9 +145,9 @@ theme = ExtResource( 1 )
 
 [node name="HSeparator2" type="HSeparator" parent="Panel3"]
 margin_left = 1.0
-margin_top = 61.0
+margin_top = 63.0
 margin_right = 119.0
-margin_bottom = 65.0
+margin_bottom = 67.0
 theme = ExtResource( 1 )
 
 [node name="VSeparator" type="VSeparator" parent="Panel3"]
@@ -168,18 +169,17 @@ text = "Full screen"
 flat = true
 
 [node name="CheckButton2" type="CheckButton" parent="Panel3"]
-margin_left = 4.0
-margin_top = 41.0
-margin_right = 115.0
-margin_bottom = 63.3413
+margin_left = 3.0
+margin_top = 38.0
+margin_right = 114.0
+margin_bottom = 60.3413
 focus_mode = 0
 theme = ExtResource( 1 )
 enabled_focus_mode = 0
 text = "Sound"
-flat = true
 
 [node name="Tree" type="Tree" parent="Panel3"]
-margin_left = 129.0
+margin_left = 123.0
 margin_top = 21.0
 margin_right = 214.0
 margin_bottom = 146.0
@@ -187,8 +187,8 @@ theme = ExtResource( 1 )
 columns = 2
 
 [node name="ItemList" type="ItemList" parent="Panel3"]
-margin_left = 4.0
-margin_top = 66.0
+margin_left = 3.0
+margin_top = 68.0
 margin_right = 115.0
 margin_bottom = 146.0
 theme = ExtResource( 1 )
