@@ -176,21 +176,13 @@ margin_right = 6.0
 margin_top = 5.96642
 margin_bottom = 5.50548
 
-[sub_resource type="StyleBoxTexture" id=40]
+[sub_resource type="StyleBoxTexture" id=22]
 texture = ExtResource( 21 )
 region_rect = Rect2( 0, 0, 16, 16 )
 margin_left = 1.67066
 margin_right = 1.41363
 margin_top = 2.05619
 margin_bottom = 1.79917
-
-[sub_resource type="StyleBoxTexture" id=22]
-texture = ExtResource( 22 )
-region_rect = Rect2( 0, 0, 16, 16 )
-margin_left = 4.0
-margin_right = 4.0
-margin_top = 4.0
-margin_bottom = 4.0
 
 [sub_resource type="StyleBoxTexture" id=23]
 texture = ExtResource( 22 )
@@ -201,8 +193,16 @@ margin_top = 4.0
 margin_bottom = 4.0
 
 [sub_resource type="StyleBoxTexture" id=24]
+texture = ExtResource( 22 )
+region_rect = Rect2( 0, 0, 16, 16 )
+margin_left = 4.0
+margin_right = 4.0
+margin_top = 4.0
+margin_bottom = 4.0
 
 [sub_resource type="StyleBoxTexture" id=25]
+
+[sub_resource type="StyleBoxTexture" id=26]
 texture = ExtResource( 23 )
 region_rect = Rect2( 0, 0, 8, 8 )
 margin_left = 4.0
@@ -210,7 +210,7 @@ margin_right = 4.0
 margin_top = 4.0
 margin_bottom = 4.0
 
-[sub_resource type="StyleBoxTexture" id=26]
+[sub_resource type="StyleBoxTexture" id=27]
 texture = ExtResource( 23 )
 region_rect = Rect2( 0, 0, 8, 8 )
 margin_left = 2.0
@@ -218,21 +218,13 @@ margin_right = 2.0
 margin_top = 2.0
 margin_bottom = 2.0
 
-[sub_resource type="StyleBoxTexture" id=27]
+[sub_resource type="StyleBoxTexture" id=28]
 texture = ExtResource( 23 )
 region_rect = Rect2( 0, 0, 8, 8 )
 margin_left = 3.0
 margin_right = 3.0
 margin_top = 3.0
 margin_bottom = 3.0
-
-[sub_resource type="StyleBoxTexture" id=28]
-texture = ExtResource( 22 )
-region_rect = Rect2( 0, 0, 16, 16 )
-margin_left = 4.0
-margin_right = 4.0
-margin_top = 4.0
-margin_bottom = 4.0
 
 [sub_resource type="StyleBoxTexture" id=29]
 texture = ExtResource( 22 )
@@ -242,7 +234,15 @@ margin_right = 4.0
 margin_top = 4.0
 margin_bottom = 4.0
 
-[sub_resource type="StyleBoxTexture" id=41]
+[sub_resource type="StyleBoxTexture" id=30]
+texture = ExtResource( 22 )
+region_rect = Rect2( 0, 0, 16, 16 )
+margin_left = 4.0
+margin_right = 4.0
+margin_top = 4.0
+margin_bottom = 4.0
+
+[sub_resource type="StyleBoxTexture" id=31]
 texture = ExtResource( 21 )
 region_rect = Rect2( 0, 0, 16, 16 )
 margin_left = 1.67066
@@ -250,7 +250,7 @@ margin_right = 1.79917
 margin_top = 1.67066
 margin_bottom = 1.79917
 
-[sub_resource type="StyleBoxTexture" id=30]
+[sub_resource type="StyleBoxTexture" id=32]
 content_margin_left = 0.0
 content_margin_right = 0.0
 content_margin_top = 0.0
@@ -262,7 +262,7 @@ margin_right = 6.92768
 margin_top = 6.47182
 margin_bottom = 6.54215
 
-[sub_resource type="StyleBoxTexture" id=31]
+[sub_resource type="StyleBoxTexture" id=33]
 texture = ExtResource( 13 )
 region_rect = Rect2( 0, 0, 16, 16 )
 margin_left = 7.18471
@@ -270,7 +270,7 @@ margin_right = 6.76674
 margin_top = 7.15227
 margin_bottom = 6.84462
 
-[sub_resource type="StyleBoxTexture" id=32]
+[sub_resource type="StyleBoxTexture" id=34]
 texture = ExtResource( 14 )
 region_rect = Rect2( 0, 0, 16, 16 )
 margin_left = 6.91647
@@ -278,7 +278,7 @@ margin_right = 7.07222
 margin_top = 6.86583
 margin_bottom = 7.12285
 
-[sub_resource type="StyleBoxTexture" id=33]
+[sub_resource type="StyleBoxTexture" id=35]
 texture = ExtResource( 15 )
 region_rect = Rect2( 0, 0, 16, 16 )
 margin_left = 4.56312
@@ -286,7 +286,7 @@ margin_right = 5.65772
 margin_top = 5.34513
 margin_bottom = 5.06034
 
-[sub_resource type="StyleBoxTexture" id=34]
+[sub_resource type="StyleBoxTexture" id=36]
 texture = ExtResource( 16 )
 region_rect = Rect2( 0, 0, 16, 16 )
 margin_left = 5.0
@@ -294,7 +294,7 @@ margin_right = 4.70552
 margin_top = 4.99031
 margin_bottom = 4.84792
 
-[sub_resource type="StyleBoxTexture" id=35]
+[sub_resource type="StyleBoxTexture" id=37]
 texture = ExtResource( 24 )
 region_rect = Rect2( 0, 0, 4, 16 )
 margin_left = 4.00331
@@ -302,7 +302,7 @@ margin_right = 3.85537
 margin_top = 3.86454
 margin_bottom = 3.68052
 
-[sub_resource type="StyleBoxTexture" id=36]
+[sub_resource type="StyleBoxTexture" id=38]
 texture = ExtResource( 19 )
 region_rect = Rect2( 0, 0, 16, 16 )
 margin_left = 6.0
@@ -310,11 +310,11 @@ margin_right = 6.0
 margin_top = 6.0
 margin_bottom = 6.0
 
-[sub_resource type="StyleBoxTexture" id=37]
+[sub_resource type="StyleBoxTexture" id=39]
 texture = ExtResource( 18 )
 region_rect = Rect2( 0, 0, 16, 16 )
 
-[sub_resource type="StyleBoxTexture" id=38]
+[sub_resource type="StyleBoxTexture" id=40]
 texture = ExtResource( 20 )
 region_rect = Rect2( 0, 0, 16, 16 )
 margin_left = 6.0
@@ -322,12 +322,12 @@ margin_right = 6.0
 margin_top = 6.16858
 margin_bottom = 6.0
 
-[sub_resource type="DynamicFont" id=39]
+[sub_resource type="DynamicFont" id=41]
 size = 8
 font_data = ExtResource( 25 )
 
 [resource]
-default_font = SubResource( 39 )
+default_font = SubResource( 41 )
 Button/colors/font_color = Color( 0.878431, 0.878431, 0.878431, 1 )
 Button/colors/font_color_disabled = Color( 0.9, 0.9, 0.9, 0.2 )
 Button/colors/font_color_hover = Color( 0, 0, 0, 1 )
@@ -399,7 +399,7 @@ ItemList/constants/icon_margin = 4
 ItemList/constants/line_separation = 2
 ItemList/constants/vseparation = 2
 ItemList/fonts/font = null
-ItemList/styles/bg = SubResource( 40 )
+ItemList/styles/bg = SubResource( 22 )
 ItemList/styles/bg_focus = null
 ItemList/styles/cursor = null
 ItemList/styles/cursor_unfocused = null
@@ -411,15 +411,15 @@ LineEdit/colors/font_color_selected = Color( 0, 0, 0, 1 )
 LineEdit/colors/selection_color = Color( 0.490196, 0.490196, 0.490196, 1 )
 LineEdit/constants/minimum_spaces = 12
 LineEdit/fonts/font = null
-LineEdit/styles/ = SubResource( 22 )
+LineEdit/styles/ = SubResource( 23 )
 LineEdit/styles/focus = null
-LineEdit/styles/normal = SubResource( 23 )
+LineEdit/styles/normal = SubResource( 24 )
 LineEdit/styles/read_only = null
 MenuButton/icons/ = null
-OptionButton/styles/ = SubResource( 24 )
-Panel/styles/panel = SubResource( 25 )
-Panel/styles/panelf = SubResource( 26 )
-Panel/styles/panelnc = SubResource( 27 )
+OptionButton/styles/ = SubResource( 25 )
+Panel/styles/panel = SubResource( 26 )
+Panel/styles/panelf = SubResource( 27 )
+Panel/styles/panelnc = SubResource( 28 )
 TextEdit/colors/background_color = Color( 0, 0, 0, 0 )
 TextEdit/colors/brace_mismatch_color = Color( 1, 0.2, 0.2, 1 )
 TextEdit/colors/breakpoint_color = Color( 0.8, 0.8, 0.4, 0.2 )
@@ -448,10 +448,10 @@ TextEdit/constants/completion_scroll_width = 3
 TextEdit/constants/line_spacing = 4
 TextEdit/fonts/font = null
 TextEdit/icons/tab = null
-TextEdit/styles/ = SubResource( 28 )
+TextEdit/styles/ = SubResource( 29 )
 TextEdit/styles/completion = null
 TextEdit/styles/focus = null
-TextEdit/styles/normal = SubResource( 29 )
+TextEdit/styles/normal = SubResource( 30 )
 TextEdit/styles/read_only = null
 Tree/colors/cursor_color = Color( 0, 0, 0, 1 )
 Tree/colors/custom_button_font_highlight = Color( 0.941176, 0.941176, 0.941176, 1 )
@@ -479,7 +479,7 @@ Tree/icons/checked = null
 Tree/icons/select_arrow = null
 Tree/icons/unchecked = null
 Tree/icons/updown = null
-Tree/styles/bg = SubResource( 41 )
+Tree/styles/bg = SubResource( 31 )
 Tree/styles/bg_focus = null
 Tree/styles/button_pressed = null
 Tree/styles/cursor = null
@@ -496,19 +496,19 @@ VScrollBar/icons/decrement = null
 VScrollBar/icons/decrement_highlight = null
 VScrollBar/icons/increment = null
 VScrollBar/icons/increment_highlight = null
-VScrollBar/styles/grabber = SubResource( 30 )
-VScrollBar/styles/grabber_highlight = SubResource( 31 )
-VScrollBar/styles/grabber_pressed = SubResource( 32 )
-VScrollBar/styles/scroll = SubResource( 33 )
-VScrollBar/styles/scroll_focus = SubResource( 34 )
+VScrollBar/styles/grabber = SubResource( 32 )
+VScrollBar/styles/grabber_highlight = SubResource( 33 )
+VScrollBar/styles/grabber_pressed = SubResource( 34 )
+VScrollBar/styles/scroll = SubResource( 35 )
+VScrollBar/styles/scroll_focus = SubResource( 36 )
 VSeparator/constants/separation = 4
-VSeparator/styles/separator = SubResource( 35 )
+VSeparator/styles/separator = SubResource( 37 )
 VSlider/icons/grabber = ExtResource( 18 )
 VSlider/icons/grabber_disabled = null
 VSlider/icons/grabber_highlight = ExtResource( 18 )
 VSlider/icons/tick = ExtResource( 18 )
 VSlider/styles/focus = null
-VSlider/styles/grabber_area = SubResource( 36 )
+VSlider/styles/grabber_area = SubResource( 38 )
 VSlider/styles/grabber_disabled = null
-VSlider/styles/grabber_highlight = SubResource( 37 )
-VSlider/styles/slider = SubResource( 38 )
+VSlider/styles/grabber_highlight = SubResource( 39 )
+VSlider/styles/slider = SubResource( 40 )
