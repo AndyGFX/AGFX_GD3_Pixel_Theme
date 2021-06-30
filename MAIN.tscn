@@ -7,7 +7,6 @@ margin_right = 40.0
 margin_bottom = 40.0
 
 [node name="Panel" type="Panel" parent="."]
-editor/display_folded = true
 margin_left = 4.0
 margin_top = 3.0
 margin_right = 120.0
@@ -70,7 +69,6 @@ enabled_focus_mode = 0
 text = "Checkbox"
 
 [node name="Panel2" type="Panel" parent="."]
-editor/display_folded = true
 margin_left = 122.0
 margin_top = 3.0
 margin_right = 290.0
@@ -121,7 +119,6 @@ theme = ExtResource( 1 )
 ticks_on_borders = true
 
 [node name="Panel3" type="Panel" parent="."]
-editor/display_folded = true
 margin_left = 291.0
 margin_top = 3.0
 margin_right = 509.0
